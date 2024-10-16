@@ -179,3 +179,23 @@ footer a {
   text-decoration: none;
   color: #b68f8f;
 }
+
+.grid-cont {
+  height: 100vh;
+  gap: 1%;
+  margin-top: 7vh;
+  margin-bottom: 5em;
+  display: grid;
+  grid-template-columns: repeat(3, 16.2666666667vw);
+  border: solid 2px #000;
+}
+.grid-cont .grid-item {
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-device-width: 480px) {
+  body {
+    background-color: blue;
+  }
+}
